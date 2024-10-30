@@ -13,6 +13,8 @@ import Image from "next/image";
 import { useShoppingCart } from "use-shopping-cart";
 import { CartItem } from "../types"; // Import CartItem type
 
+// error is resolved
+
 export default function ShoppingCartModal() {
   const {
     cartCount,
