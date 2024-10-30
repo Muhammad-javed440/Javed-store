@@ -51,7 +51,7 @@ export default async function CategoryPage({
 
               <div className="mt-4 flex justify-between">
                 <div>
-                  <h3 className="text-sm text-gray-700">
+                  <h3 className="text-yellow-400 bg-red-600 m-2 p-2 text-lg hover:text-black text bold hover:bg-yellow-400 rounded-lg">
                     <Link href={`/product/${product.slug}`}>
                       {product.name}
                     </Link>

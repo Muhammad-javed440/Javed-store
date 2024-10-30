@@ -45,10 +45,11 @@ export default function AddToBag({
   };
 
   return (
-    <Button
+    <Button className=""
       onClick={() => {
         addItem(product);
         handleCartClick();
+      
       }}
     >
       Add To Cart
