@@ -19,13 +19,12 @@ export interface Product {
   }
 
   export interface ImageType {
+    _type: string;
     _id: string;
-    url: string;
-    _type: Type;
-    asset: string; // The _type property for identifying the image type
+    url: string;         // URL of the image
+    alt?: string; 
+  asset: {
+    _ref: string;
+    _type: string;// The _type property for identifying the image type
 }
-
-export interface Type{
-  _ref: string;
-   _type: string;
-}
+  }
