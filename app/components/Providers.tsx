@@ -6,7 +6,7 @@ import { CartProvider as USCProvider } from "use-shopping-cart";
 
 
 export default function CartProvider({ children }: { children: ReactNode }) {
-  const stripeSecretKey = process.env.STRIPE_SECRET_KEY;
+  
 
   return (
     <USCProvider
