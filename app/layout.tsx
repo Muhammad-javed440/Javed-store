@@ -28,15 +28,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <CartProvider>
+     
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-
+         <CartProvider>
           <Navbar/>
-          {/* <ShoppingCartModal/> */}
+          <ShoppingCartModal/>
         {children}
-      </body>
         </CartProvider>
+      </body>
+        
     </html>
   );
 }

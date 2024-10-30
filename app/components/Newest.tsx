@@ -49,7 +49,7 @@ return(
                                 </h3>
                                 <p className="mt-1 text-sm">{product.categoryName}</p>
                             </div>
-                            <p className=" text-sm font-medium ">Rs:{product.price}</p>
+                            <p className=" text-sm font-medium ">${product.price}</p>
                         </div>
                     </div>
                 ))}
